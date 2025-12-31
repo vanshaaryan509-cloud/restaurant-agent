@@ -1,0 +1,38 @@
+2025-12-30 13:24:55 - CRITICAL - Environment variable 'GEMINI_API_KEY' is not set
+2025-12-30 13:25:20 - CRITICAL - Environment variable 'GEMINI_API_KEY' is not set
+2025-12-30 13:27:07 - ERROR - Environment variable 'GEMINI_API_KEY' is not set
+2025-12-30 13:27:38 - INFO - Environment variable 'GEMINI_API_KEY' is not set
+2025-12-30 13:55:06 - INFO - Connection successful.
+sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text='Ok'
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='YYxTadaFJ9m7g8UPhPTE-AE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=1,
+  prompt_token_count=11,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=11
+    ),
+  ],
+  thoughts_token_count=17,
+  total_token_count=29
+) automatic_function_calling_history=[] parsed=None
+2025-12-30 13:55:55 - INFO - Connection successful.
+2025-12-30 14:16:09 - ERROR - InputError: Prompt is invalid
+2025-12-30 14:18:05 - INFO - Connection successful.
+Ok
+2025-12-30 19:31:46 - INFO - Prompt is valid
+2025-12-30 19:33:12 - INFO - Prompt is valid
+2025-12-30 19:33:13 - INFO - Connection successful.
+Ok
